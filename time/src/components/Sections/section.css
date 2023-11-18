@@ -1,0 +1,30 @@
+ul.video-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  li.video-card-item {
+    width: 48%;
+    height: 200px;
+    margin: auto;
+    text-align: right;
+  }
+  .video-card-content {
+    background-color: #000;
+    padding: 10px;
+  }
+  .video {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+  
+  span.video-card.date {
+    margin: 6px 12px 0 0;
+    font-size: 80%;
+    color: #cccccc;
+  }
+  

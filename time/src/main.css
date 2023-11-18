@@ -1,0 +1,21 @@
+body {
+  font-family: "Mina", sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+
